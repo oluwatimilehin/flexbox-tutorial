@@ -30,6 +30,11 @@ body{
     padding-left: 1em;
     padding-right: 1em;
 }
+.episode-list-item .position{
+    color: #00b1b4;
+    font-weight: bold;
+}
+
 .episode-list-item .title a:hover{
     text-decoration: underline;
 }
