@@ -27,6 +27,12 @@ main{
     display: flex;
     margin-bottom: auto;
 }
+
+@media screen and (max-width:768px){
+    main{
+        flex-direction: column-reverse;
+    }
+}
 main > aside{
     margin-right: 40px;
 }
