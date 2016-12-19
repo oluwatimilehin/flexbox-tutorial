@@ -15,4 +15,6 @@ body{
 }
 .episode-list-item{
     display: flex;
+    border-bottom: 1px dashed #cecece;
+    padding: 10px 0;
 }
