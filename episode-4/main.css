@@ -4,6 +4,7 @@
 }
 body, html{
     height: 100%;
+    font-family: sans-serif;
 }
 body{
     display: flex;
@@ -17,4 +18,11 @@ body{
     display: flex;
     border-bottom: 1px dashed #cecece;
     padding: 10px 0;
+}
+.episode-list-item .title a{
+    text-decoration: none;
+    color: inherit; /**It inherits the normal font color of black **/
+}
+.episode-list-item .title a:hover{
+    text-decoration: underline;
 }
