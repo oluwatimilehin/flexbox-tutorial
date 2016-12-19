@@ -18,10 +18,14 @@ body{
     display: flex;
     border-bottom: 1px dashed #cecece;
     padding: 10px 0;
+    justify-content: space-between;
 }
 .episode-list-item .title a{
     text-decoration: none;
     color: inherit; /**It inherits the normal font color of black **/
+}
+.episode-list-item .title{
+    margin-right: auto;
 }
 .episode-list-item .title a:hover{
     text-decoration: underline;
