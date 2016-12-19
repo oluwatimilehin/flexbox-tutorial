@@ -19,6 +19,7 @@ body{
     border-bottom: 1px dashed #cecece;
     padding: 10px 0;
     justify-content: space-between;
+    align-items: center;
 }
 .episode-list-item .title a{
     text-decoration: none;
@@ -26,6 +27,8 @@ body{
 }
 .episode-list-item .title{
     margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 .episode-list-item .title a:hover{
     text-decoration: underline;
