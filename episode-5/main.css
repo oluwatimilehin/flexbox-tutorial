@@ -3,6 +3,7 @@ h4{
 }
 .media{
     display: flex;
+    width: 100%;
 }
 body, html{
     height: 100%;
@@ -15,6 +16,27 @@ body{
     justify-content: center;
     align-items: center;   
 }
+.box{
+    border: 1px solid #cecece;
+    padding: 20px;
+}
 .media-left{
     margin-right: 1em;
+}
+.media-content{
+    flex: 1;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.media-content textarea{
+    padding: 0;
+    width: 100%;
+    min-height:100px; 
+    border-color: #cecece;
+}
+.media-content-button{
+    align-self: flex-end;
 }
