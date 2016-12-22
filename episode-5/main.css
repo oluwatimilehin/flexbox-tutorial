@@ -1,0 +1,12 @@
+h4{
+    margin: 0;
+}
+.media{
+    display: flex;
+}
+body{
+    font-family: sans-serif;
+}
+.media-left{
+    margin-right: 1em;
+}
