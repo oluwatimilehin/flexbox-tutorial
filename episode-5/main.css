@@ -4,8 +4,16 @@ h4{
 .media{
     display: flex;
 }
+body, html{
+    height: 100%;
+}
 body{
     font-family: sans-serif;
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
 }
 .media-left{
     margin-right: 1em;
