@@ -1,0 +1,29 @@
+.columns{
+    display: flex;
+}
+.columns.is-multiline{
+     flex-wrap: wrap;
+}
+.box{
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+.column{
+    flex: 1;
+}
+.column.is-6{
+    width: 50%;
+    flex: none;
+}
+.column.is-2{
+    width: 16.6667%;
+    flex: none;
+}
+.column.is-4{
+    width: 33.3333%;
+    flex: none;
+}
