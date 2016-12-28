@@ -15,6 +15,11 @@ body{
 }
 .control.has-addon .control-addon{
     background: #e3e3e3;
+    width: 25px;
+    text-align: center;
+}
+.control:not(:last-child){
+    margin-bottom: 1em;
 }
 .control.control.has-addon .control-field{
     flex: 1;
