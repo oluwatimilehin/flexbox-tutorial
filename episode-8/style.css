@@ -25,6 +25,17 @@ body{
     flex: 1;
     border: 1px solid #e3e3e3;
 }
+.control.control.has-addon .control-field:focus{
+    outline: none;
+    border: 1px solid #00b1b3;
+    border-right: none;
+}
+.control.control.has-addon .control-field:focus + .control-addon{
+    border: 1px solid #00b1b3;
+    border-left: none;
+    animation: fadeColor 2s;
+    animation-iteration-count: infinite;
+}
 .control > *{
     padding: 0.8em;
 }
@@ -32,4 +43,10 @@ body{
     padding: 20px;
     border: 1px solid #e3e3e3;
     width: 700px;
+}
+
+@keyframes fadeColor{
+    50%{
+        color: #026c6d;
+    }
 }
